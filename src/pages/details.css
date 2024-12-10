@@ -1,0 +1,49 @@
+.movie-page{
+    display:flex;
+    flex-direction: column;
+    max-width:600px;
+    margin:2rem auto;
+}
+
+
+.info {
+    padding: 20px;
+    background-color:#F5F5DC;
+    border-radius: 8px;
+  }
+  
+
+  .cast {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+  }
+  
+  
+  .actor {
+    text-align: center;
+    width: 120px; 
+    max-width: 120px;
+  }
+  
+  .actor img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .actor p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .movie-page .movie-card img,
+  .movie-page .movie-card h2,
+  .movie-page .movie-card p {
+    max-width: 50%;
+    
+    display: block;
+    margin: 0 auto 2rem; 
+  }
